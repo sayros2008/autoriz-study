@@ -9,7 +9,7 @@ namespace WebApplicationAutontific1.Models
     public class UserContext:DbContext
     {
         public UserContext() :
-              base("DefaultConnection")
+              base("DBConnection")
         { }
         public DbSet<User> Users { get; set; }
     }
